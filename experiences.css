@@ -1,0 +1,203 @@
+body {
+    background-color: black;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.vertical-line1 {
+    position: absolute;
+    left: 50px;
+    top: 60px;
+    /*width: 1705px;*/
+    height: 740px;
+    border-left: 1px solid #626161;
+}
+
+.vertical-line2 {
+    position: absolute;
+    left: 300px;
+    top: 60px;
+    height: 390px;
+    border-left: 1px solid #626161;
+}
+.vertical-line3 {
+    position: absolute;
+    left: 300px;
+    top: 530px;
+    height: 270px;
+    border-left: 1px solid #626161;
+}
+
+.under-line1 {
+    position:absolute;
+    left: 0px;
+    top: 60px;
+    width: 1705px;
+    border-top: 1px solid #626161;
+}
+
+.under-line2 {
+    position: absolute;
+    left: 0px;
+    top: 800px;
+    width: 1705px;
+    border-top: 1px solid #626161;
+}
+
+h1 {
+    color:white;
+    position: absolute;
+    left: 915px;
+    top: 170px;
+    width: 730px;
+    height: 300px;
+    font-size: 135px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 900;
+    overflow: hidden;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.1), translateY(-10px);
+}
+
+button.main_button {
+    background-color: black;
+    color:rgb(152, 213, 247);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    font-family: 'Kode Mono', monospace;
+
+    position: absolute;
+    left: 68px;
+    top: 163px;
+    width: 180px;
+    height: 180px;
+    font-size: 22px;
+    letter-spacing: 3px;
+
+    border: none;
+}
+
+button.abt_button {
+    /* Button */
+    background-color: black;
+    color: rgb(215,186,125);
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    font-family: 'Kode Mono', monospace;
+
+    position: absolute;
+    left: 85px;
+    top: 320px;
+    width: 125px;
+    height: 0px;
+    font-size: 22px;
+    letter-spacing: 3px;
+
+    border: none;
+
+}
+
+button.stack_button {
+    background-color: black;
+    color:rgb(162, 183, 150);
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    font-family: 'Kode Mono', monospace;
+
+    position: absolute;
+    left: 98px;
+    top: 390px;
+    width: 160px;
+    height: 41px;
+    font-size: 22px;
+    letter-spacing: 3px;
+
+    border: none;
+}
+
+button.exper_button {
+    background-color: black;
+    color:rgb(86, 156, 214);
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    font-family: 'Kode Mono', monospace;
+
+    position: absolute;
+    left: 180px;
+    top: 450px;
+    width: 150px;
+    height: 80px;
+    font-size: 27px;
+    letter-spacing: 3px;
+
+    border: none;
+}
+
+button.contact_button {
+    /* Button */
+    background-color: black;
+    color: rgb(202,142,118);
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    font-family: 'Kode Mono', monospace;
+
+    position: absolute;
+    left: 98px;
+    top: 554px;
+    width: 130px;
+    height: 26px;
+    font-size: 22px;
+    letter-spacing: 3px;
+
+    border: none;
+
+}
+
+.email-link {
+    color:azure;
+    position:absolute;
+    left: 380px;
+    top: 900px;
+    width: 350px;
+    height: 150px;
+    font-size: 22px;
+    font-family: 'Instrument Sans', sans-serif;
+    letter-spacing:3px;
+    text-decoration: none;
+}
